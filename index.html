@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap 5 Css Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- FontAwesome Css Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Iconscout Css Link -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!-- Swiper Js Css Link -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <!-- Css Custom Link -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Responsive Css Custom Link -->
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body onload="Preloader()">
+    <div id="preloader"></div>
+    <!-- Navigation Bar -->
+    <div class="navigationBar" id="home">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logos/logo5.png" alt="" class="img-fluid ok">
+                    <img src="images/logos/logo3.png" alt="" class="img-fluid by">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <!-- <span class="navbar-toggler-icon"></span> -->
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav menu-navbar-nav">
+                        <li class="nav-item hvr-underline-from-left">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item hvr-underline-from-left">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item hvr-underline-from-left">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item hvr-underline-from-left">
+                            <a class="nav-link" href="#portfolio">Projects</a>
+                        </li>
+                        <li class="nav-item hvr-underline-from-left">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item mt-3 mt-lg-0">
+                            <a class="myBtn text-capitalize hvr-grow" href="#contact">Get in Touch <i
+                                    class="fa-solid fa-phone"></i>
+
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Slider by Swiper Js -->
+    <div class="swiper ownSlider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="images/slider/pic2.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="images/slider/pic5.jpg" alt="">
+            </div>
+            <div class=" swiper-slide">
+                <img src="images/slider/pic7.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- Banner -->
+    <div class="container banner ms-sm-5">
+        <div class="row">
+            <div class="col-sm-12 text-start">
+                <h6>WELCOME TO MY WORLD</h6>
+                <h1>I'm <br><span class="auto"></span><br>based in Pakistan.</h1>
+                <div class="mt-sm-4">
+                    <a href="#" class="myBtn hvr-grow">Downlaod CV <i class="fa-solid fa-download"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Company Logos -->
+    <div class="conpanies">
+        <div class="container">
+            <div class="row text-center title">
+                <h3 class="text-center">
+                    Trusted by Companies Like
+                </h3>
+                <div class="line mt-1"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row mt-4">
+                <div class="col-6 col-sm-4 col-lg-2">
+                    <div class="images ">
+                        <img src="images/companies/amazon.svg" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-lg-2">
+                    <div class="images">
+                        <img src="images/companies/dis.svg" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-lg-2">
+                    <div class="images">
+                        <img src="images/companies/uber.svg" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-lg-2">
+                    <div class="images">
+                        <img src="images/companies/sony.svg" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-lg-2">
+                    <div class="images">
+                        <img src="images/companies/spoli.svg" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-lg-2">
+                    <div class="images">
+                        <img src="images/companies/netfix.svg" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service -->
+    <div class="service container">
+        <div class="row ">
+            <h3 class="title text-center">I Offer these<br>
+                <div class="line mt-1"></div>
+                <span class="moreStyle">Services</span>
+            </h3>
+        </div>
+        <div class="row service-main justify-content-md-evenly align-content-md-center my-5">
+            <div class="service-box col-12 mb-5 mb-md-0 col-md-5 text-center boxImg1 hvr-overline-from-center">
+                <img src="images/service/sv6.png" alt="" class="img-fluid">
+                <h5>Web-Development</h5>
+                <p>Lorem ipsum is placeholder text commonly <br>used in the graphic, print, and publishing
+                    industries...
+                </p>
+                <a href="#">More Details <i class="fa-solid fa-circle-info"></i>
+                </a>
+            </div>
+
+            <div class="service-box col-12 col-md-5 text-center boxImg2 hvr-overline-from-center">
+                <img src="images/service/sv3.png" alt="" class="img-fluid">
+                <h5>WordPress</h5>
+                <p>Lorem ipsum is placeholder text commonly <br>used in the graphic, print, and publishing
+                    industries...
+                </p>
+                <a href="">More Details <i class="fa-solid fa-circle-info "></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- About us -->
+    <div class="aboutUs">
+        <div class="container">
+            <div class="row">
+                <h1 class="text-center">Profile
+                </h1>
+                <h3 class="title text-center">I'm a Creative Developer</h3>
+            </div>
+            <div class="row my-5">
+                <div class="col-12 col-md-6 profile">
+                    <h4>About me</h4>
+                    <h5>Muhhammad Anza Muneeb Khan</h5>
+                    <p>I am an allround web designer.Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum
+                        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                        qui
+                        officia deserunt mollit anim id est laborum. </p>
+                    <h5 class="detail">Details</h5>
+                    <h6><span> Name: Anza Muneeb Khan</span></h6>
+                    <h6><span> Age: 20 Years</span></h6>
+                    <h6><span> Loaction: Lahore</span></h6>
+                </div>
+                <div class="col-12 col-md-6 mt-5 mt-md-0">
+                    <div class="skill-bars">
+                        <div class="bar">
+                            <div class="info">
+                                <span>HTML</span>
+                            </div>
+                            <div class="progress-line html">
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="bar">
+                            <div class="info">
+                                <span>CSS</span>
+                            </div>
+                            <div class="progress-line css">
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="bar">
+                            <div class="info">
+                                <span>Javascript</span>
+                            </div>
+                            <div class="progress-line Javascript">
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="bar">
+                            <div class="info">
+                                <span>Bootstrap</span>
+                            </div>
+                            <div class="progress-line Bootstrap">
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="bar">
+                            <div class="info">
+                                <span>Wordpress</span>
+                            </div>
+                            <div class="progress-line Wordpress">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Counter Clock -->
+    <div class="counter_area">
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-6 col-sm-3 single_counter text-center">
+                    <div class="">
+                        <span id="count1" class="fw-bold">10</span>
+                        <span class="fw-bold">N</span>
+                    </div>
+                    <h5 class="fw-bold">Projects</h5>
+                </div>
+                <div class="col-6 col-sm-3 single_counter text-center">
+                    <div class="">
+                        <span id="count2" class="fw-bold">50</span><span class="fw-bold">+</span>
+                    </div>
+                    <h5 class="fw-bold">Clients</h5>
+                </div>
+                <div class="col-6 col-sm-3 single_counter text-center">
+                    <div class="">
+                        <span id="count3" class="fw-bold">100</span><span class="fw-bold">%</span>
+                    </div>
+                    <h5 class="fw-bold">Quality Product</h5>
+                </div>
+                <div class="col-6 col-sm-3 single_counter text-center">
+                    <div class="">
+                        <span id="count4" class="fw-bold">100</span><span class="fw-bold">%</span>
+                    </div>
+                    <h5 class="fw-bold">Responce Time</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Projects -->
+    <div class="project">
+        <div class="container">
+            <div class="row">
+                <h1 class="text-center">Projects</h1>
+            </div>
+            <div class="row my-3">
+                <div class="filters text-center justify-content-center align-content-center text-center">
+                    <button class="filter-btn active" data-filter="*">All</button>
+                    <button class="filter-btn" data-filter=".web">Web-Development</button>
+                    <button class="filter-btn" data-filter=".Wordpress">WordPress</button>
+                </div>
+            </div>
+            <div class="row grid">
+                <div class="grid-item web col-12 mb-5 col-md-6 mb-md-5 mb-lg-0 col-lg-3">
+                    <div class="gallery-box">
+                        <img src="images/service/sv7.png" class="img-fluid">
+                        <div class="img-overLay ">
+                            <div class="plus"></div>
+                            <div class="img-description">
+                                <h3>Web-Development</h3>
+                                <h5><a href="">View Demo</a></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item Wordpress col-12 mb-5 col-md-6 mb-md-5 mb-lg-0 col-lg-3">
+                    <div class="gallery-box">
+                        <img src="images/service/sv3.png" class="img-fluid">
+                        <div class="img-overLay ">
+                            <div class="plus"></div>
+                            <div class="img-description">
+                                <h3>WordPress</h3>
+                                <h5><a href="">View Demo</a></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item web col-12 mb-5 col-md-6 mb-md-5 mb-lg-0 col-lg-3">
+                    <div class="gallery-box">
+                        <img src="images/service/sv7.png" class="img-fluid">
+                        <div class="img-overLay ">
+                            <div class="plus"></div>
+                            <div class="img-description">
+                                <h3>Web-Development</h3>
+                                <h5><a href="">View Demo</a></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item Wordpress col-12 mb-5 col-md-6 mb-md-5 mb-lg-0 col-lg-3">
+                    <div class=" gallery-box">
+                        <img src="images/service/sv3.png" class="img-fluid">
+                        <div class="img-overLay ">
+                            <div class="plus"></div>
+                            <div class="img-description">
+                                <h3>WordPress</h3>
+                                <h5><a href="">View Demo</a></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row grid mt-lg-5">
+                <div class="grid-item web col-12 mb-5 col-md-6 mb-md-5 mb-lg-0 col-lg-3">
+                    <div class="gallery-box">
+                        <img src="images/service/sv7.png" class="img-fluid">
+                        <div class="img-overLay ">
+                            <div class="plus"></div>
+                            <div class="img-description">
+                                <h3>Web-Development</h3>
+                                <h5><a href="">View Demo</a></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item Wordpress col-12 mb-5 col-md-6 mb-md-5 mb-lg-0 col-lg-3">
+                    <div class="gallery-box">
+                        <img src="images/service/sv3.png" class="img-fluid">
+                        <div class="img-overLay ">
+                            <div class="plus"></div>
+                            <div class="img-description">
+                                <h3>WordPress</h3>
+                                <h5><a href="">View Demo</a></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item web col-12 mb-5 col-md-6 mb-md-5 mb-lg-0 col-lg-3">
+                    <div class="gallery-box">
+                        <img src="images/service/sv7.png" class="img-fluid">
+                        <div class="img-overLay ">
+                            <div class="plus"></div>
+                            <div class="img-description">
+                                <h3>Web-Development</h3>
+                                <h5><a href="">View Demo</a></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item Wordpress col-12 mb-5 col-md-6 mb-md-5 mb-lg-0 col-lg-3">
+                    <div class="gallery-box">
+                        <img src="images/service/sv3.png" class="img-fluid">
+                        <div class="img-overLay ">
+                            <div class="plus"></div>
+                            <div class="img-description">
+                                <h3>WordPress</h3>
+                                <h5><a href="">View Demo</a></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonials -->
+    <div class="reviews">
+        <div class="container">
+            <div class="row text-center title">
+                <h3>My Clients Reviews</h3>
+                <div class="line mt-1"></div>
+            </div>
+            <div class="row my-2">
+                <div class="col-12 col-md-6 review-box mt-5">
+                    <div class="review swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide d-flex">
+                                <img src="images/tesclients/rv1.jpg" alt="" class="img-fluid rounded-pill my-img">
+                                <i class="fa-solid fa-quote-right quote"></i>
+                                <div class="review-body">
+                                    <h4>Williamson</h4>
+                                    <p>Twitter doesn’t allow you to customize your feed’s layout, though. And it’s a
+                                        bit
+                                        tricky
+                                        to
+                                        customize Twitter code without hiring a developer.</p>
+                                    <h6>Web Developer</h6>
+                                </div>
+                            </div>
+                            <div class="swiper-slide d-flex">
+                                <img src="images/tesclients/rw2.jpg" alt="" class="img-fluid rounded-pill my-img">
+                                <i class="fa-solid fa-quote-right quote"></i>
+                                <div class="review-body">
+                                    <h4>Kristina</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, quos ad! Ex
+                                        dolore est, architecto distinctio iure mollitia at voluptatum..</p>
+                                    <h6>App Developer</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 img2">
+                    <img src="images/clients/cl3.png" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- AsK Questions -->
+    <div class="ask">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4 ask-1">
+                    <div class="ask-img">
+                        <img src="images/ask/1.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-12 col-md-8 ask-2">
+                    <div class="ask-question">
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item mb-2">
+                                <h2 class="accordion-header my-0" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                        aria-controls="flush-collapseOne">
+                                        How to download and register?
+                                    </button>
+
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse hide"
+                                    aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high
+                                        life accusamus terry richardson ad squid. 3 wolf moon officia aute, non
+                                        cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                                        Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin
+                                        coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer
+                                        labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur
+                                        butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
+                                        aesthetic synth nesciunt you probably haven't heard of them accusamus labore
+                                        sustainable VHS. </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item mb-2">
+                                <h2 class="accordion-header mb-0" id="flush-headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                        aria-controls="flush-collapseTwo">
+                                        How to create your paypal account?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high
+                                        life accusamus terry richardson ad squid. 3 wolf moon officia aute, non
+                                        cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                                        Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin
+                                        coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer
+                                        labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur
+                                        butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
+                                        aesthetic synth nesciunt you probably haven't heard of them accusamus labore
+                                        sustainable VHS. </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item mb-2">
+                                <h2 class="accordion-header my-0" id="flush-headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                        aria-controls="flush-collapseThree">
+                                        How to link your paypal and bank account?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high
+                                        life accusamus terry richardson ad squid. 3 wolf moon officia aute, non
+                                        cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                                        Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin
+                                        coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer
+                                        labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur
+                                        butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
+                                        aesthetic synth nesciunt you probably haven't heard of them accusamus labore
+                                        sustainable VHS. </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact -->
+    <div class="contact">
+        <div class="container my-2">
+            <div class="row">
+                <div class="col-12 col-md-6 contact-img">
+                    <h1>Lets Talk</h1>
+                    <div class="media">
+                        <img src="images/contact/icons8-facebook.svg" alt="" class="img-fluid"
+                            title="My Facebook Profile Here">
+                        <img src="images/contact/icons8-github.svg" alt="" class="img-fluid"
+                            title="My GitHub Profile Here">
+                        <img src="images/contact/icons8-gmail.svg" alt="" class="img-fluid"
+                            title="My Gmail Profile Here">
+                        <img src="images/contact/icons8-linkedin.svg" alt="" class="img-fluid"
+                            title="My Linkedin Profile Here">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 contact-me mt-3 mt-md-0">
+                    <div class="row">
+                        <div class="col-6 mb-3 inputTarget">
+                            <input type="text" name="" id="" class="form-control text border-0 shadow-sm"
+                                placeholder="Name">
+                        </div>
+                        <div class="col-6 mb-3 inputTarget">
+                            <input type="text" name="" id="" class="form-control text border-0 shadow-sm"
+                                placeholder="Last">
+                        </div>
+                        <div class="col-12 mb-3 inputTarget">
+                            <input type="email" name="" id="" class="form-control text border-0 shadow-sm"
+                                placeholder="Email">
+                        </div>
+                        <div class="col-12 mb-3 inputTarget">
+                            <input type="text" name="" id="" class="form-control text border-0 shadow-sm"
+                                placeholder="Subject">
+                        </div>
+                        <div class="col-12 mb-3">
+                            <textarea name="" id="" rows="5" class="form-control text border-0 shadow-sm"
+                                placeholder="Write Your Message"></textarea>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <button class="myBtn hvr-grow">Send Message</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Scroll Top Icon -->
+    <div id="scrollUp" title="Scroll To Top">
+        <a href="#home"><span class="fs-4 text-black"></span><i class="fa-solid fa-circle-up"></i></a>
+    </div>
+    <!-- Filter Items JS Plugin -->
+    <!-- Need Pure Jquery Js Link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Filter Items Js Plugin Link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+    <!-- Bootstarp 5 Js Link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <!-- Swiper Js Link -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <!--FontAwesome Js Link-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script>
+    <!-- Js Custom Link -->
+    <script src="script/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,140 @@
+/** @format */
+/* Very Small Screen(xs-Sm(very small) Screen Size in Bootstrap */
+/* 0 to 576px */
+@media (min-width: 0px) and (max-width: 576px) {
+  .images {
+    text-align: center;
+  }
+  .banner h6 {
+    font-size: 10px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+  }
+  .banner h1 {
+    font-size: 35px;
+    line-height: 45px;
+    margin-bottom: 10px;
+  }
+  .profile h4 {
+    font-size: 40px;
+  }
+  .profile h5 {
+    font-size: 20px;
+  }
+  .profile p {
+    font-size: 14px;
+  }
+  .profile h6 {
+    font-size: 18px;
+  }
+  .profile .detail {
+    font-size: 28px;
+  }
+  .aboutUs h1 {
+    font-size: 40px;
+  }
+  .ask-img img {
+    width: 250px;
+  }
+  .contact .contact-img {
+    background-image: url('../images/contact/contact.svg');
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+/* Small Screen(Sm(small) Screen Size in Bootstrap */
+/* 576px to 767px */
+@media (min-width: 576px) and (max-width: 767px) {
+  .banner h6 {
+    font-size: 10px;
+  }
+  .banner h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .profile h4 {
+    font-size: 40px;
+  }
+  .profile h5 {
+    font-size: 20px;
+  }
+  .profile p {
+    font-size: 14px;
+  }
+  .profile h6 {
+    font-size: 18px;
+  }
+  .profile .detail {
+    font-size: 28px;
+  }
+  .aboutUs h1 {
+    font-size: 45px;
+  }
+  .ask .ask-2 .ask-question {
+    /* border: 2px solid black; */
+    margin-top: 0px;
+  }
+  .ask-img img {
+    width: 300px;
+  }
+  .contact .contact-img {
+    background-image: url('../images/contact/contact.svg');
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+/* Medium Screen(md(medium) Screen Size in Bootstrap */
+/* 768px to 991px */
+@media (min-width: 768px) and (max-width: 991px) {
+  .banner h6 {
+    font-size: 12px;
+  }
+  .banner h1 {
+    font-size: 45px;
+    line-height: 55px;
+  }
+  .service .service-box h5 {
+    font-size: 19px;
+  }
+  .service .service-box a {
+    font-size: 14px;
+  }
+  .service .service-box p {
+    font-size: 13px;
+  }
+  .profile h4 {
+    font-size: 40px;
+  }
+  .profile h5 {
+    font-size: 20px;
+  }
+  .profile p {
+    font-size: 14px;
+  }
+  .profile h6 {
+    font-size: 18px;
+  }
+  .profile .detail {
+    font-size: 28px;
+  }
+  .aboutUs h1 {
+    font-size: 45px;
+  }
+  .ask .ask-2 .ask-question {
+    /* border: 2px solid black; */
+    margin-top: 50px;
+  }
+}
+/* Large Screen(lg(Large) Screen Size in Bootstrap */
+/* 992px to 991px */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+@media (min-width: 0px) and (max-width: 991px) {
+  .navigationBar .menu-navbar-nav {
+    text-align: center;
+    background-color: #091020;
+    padding-bottom: 15px;
+  }
+}
